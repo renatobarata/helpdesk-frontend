@@ -35,6 +35,7 @@ import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-
 import { TecnicoUpdateComponent } from './components/tecnico/tecnico-update/tecnico-update.component';
 import { AuthInterceptorProvider } from './interceptors/auth.interceptor';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
 
 // Para trabalhar com formulários no Angular 12
 // Para realizar requisições HTTP
@@ -53,7 +54,8 @@ import { ClienteUpdateComponent } from './components/cliente/cliente-update/clie
     TecnicoCreateComponent,
     TecnicoListComponent,
     TecnicoDeleteComponent,
-    TecnicoUpdateComponent
+    TecnicoUpdateComponent,
+    ChamadoListComponent
   ],
   imports: [
     BrowserModule,
