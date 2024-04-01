@@ -14,18 +14,18 @@
         <mat-form-field appearance="outline">
             <mat-label>Selecione um status</mat-label>
             <mat-select [(ngModel)]="chamado.status" name="status" [formControl]="status" required>
-                <mat-option value="0">ABERTO</mat-option>
-                <mat-option value="1">EM ANDAMENTO</mat-option>
-                <mat-option value="2">ENCERRADO</mat-option>
+                <mat-option value="0">Aberto</mat-option>
+                <mat-option value="1">Em Andamento</mat-option>
+                <mat-option value="2">Encerrado</mat-option>
             </mat-select>
         </mat-form-field>
 
         <mat-form-field appearance="outline">
             <mat-label>Selecione uma prioridade</mat-label>
             <mat-select [(ngModel)]="chamado.prioridade" name="prioridade" [formControl]="prioridade" required>
-                <mat-option value="0">BAIXA</mat-option>
-                <mat-option value="1">MÉDIA</mat-option>
-                <mat-option value="2">ALTA</mat-option>
+                <mat-option value="0">Baixa</mat-option>
+                <mat-option value="1">Média</mat-option>
+                <mat-option value="2">Alta</mat-option>
             </mat-select>
         </mat-form-field>
     </div>

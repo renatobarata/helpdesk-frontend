@@ -40,21 +40,21 @@ export class ChamadoListComponent implements OnInit {
 
   retornaStatus(status: any): string {
     if(status == '0') {
-      return 'ABERTO';
+      return 'Aberto';
     } else if(status == 1) {
-      return 'EM ANDAMENTO';
+      return 'Em Andamento';
     } else {
-      return 'ENCERRADO';
+      return 'Encerrado';
     }
   }
 
   retornaPrioridade(prioridade: any): string {
     if(prioridade == '0') {
-      return 'BAIXA';
+      return 'Baixa';
     } else if(prioridade == 1) {
-      return 'MÉDIA';
+      return 'Média';
     } else {
-      return 'ALTA';
+      return 'Alta';
     }
   }
 

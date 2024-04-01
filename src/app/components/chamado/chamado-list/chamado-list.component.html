@@ -11,9 +11,9 @@
   </mat-form-field>
 
   <mat-radio-group color="primary">
-    <mat-radio-button (click)="orderByStatus(0)" value="0">ABERTO</mat-radio-button>
-    <mat-radio-button (click)="orderByStatus(1)" value="1">ANDAMENTO</mat-radio-button>
-    <mat-radio-button (click)="orderByStatus(2)" value="2">ENCERRADO</mat-radio-button>
+    <mat-radio-button (click)="orderByStatus(0)" value="0">Aberto</mat-radio-button>
+    <mat-radio-button (click)="orderByStatus(1)" value="1">Em Andamento</mat-radio-button>
+    <mat-radio-button (click)="orderByStatus(2)" value="2">Encerrado</mat-radio-button>
   </mat-radio-group>
 
   <div class="mat-elevation-z8">
@@ -60,7 +60,7 @@
             <i class="material-icons edit">edit</i>
           </a>
 
-          <a routerLink="">
+          <a routerLink="read/{{ element.id }}">
             <i class="material-icons visibility">visibility</i>
           </a>
         </td>
